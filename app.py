@@ -16,7 +16,7 @@ def main():
 
     with big_col1:
         # Display the image below the name
-        st.image("images/Rudra.png", width=250, use_container_width=False)
+        st.image("images/rudra.png", width=250, use_container_width=False)
 
         # Profile Section
         st.markdown("""
