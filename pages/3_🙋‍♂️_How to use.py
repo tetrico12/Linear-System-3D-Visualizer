@@ -18,15 +18,15 @@ c1, c2, c3 = st.columns(3)
 with c1:
     st.markdown("#### One Solutions")
     st.write("The lines will intersect at a single point, indicating a unique solution for x, y")
-    st.image("images\one_solution.png")
+    st.image("images/one_solution.png")
 with c2:
     st.markdown("#### No Solutions")
     st.write("The planes will be parallel, indicating no solution.")
-    st.image(r"images\No_solutions.png")
+    st.image(r"images/No_solutions.png")
 with c3:
     st.markdown("#### Infinity Solutions")
     st.write("The planes will overlap, indicating infinite solutions.")
-    st.image("images\infinity_solution.png")
+    st.image("images/infinity_solution.png")
 
 st.divider()
 
@@ -40,7 +40,7 @@ with c1:
         - This means that there is exactly one set of values (𝑥,𝑦,𝑧)  that satisfies all three equations. \n
         - Mathematically, this occurs when the coefficient matrix 𝐴 has full rank (rank = 3), meaning the equations are independent.\n
         """)
-    st.image("images\one_sol_3d.png")
+    st.image("images/one_sol_3d.png")
     
 with c2:
     st.markdown("#### No Solutions")
@@ -49,7 +49,7 @@ with c2:
         - There is no possible (𝑥,𝑦,𝑧) that satisfies all three equations simultaneously.\n
         - This happens when the rank of the augmented matrix is greater than the rank of the coefficient matrix. \n
         """)
-    st.image(r"images\no_dolution_3d.png")
+    st.image(r"images/no_dolution_3d.png")
     
 with c3:
     st.markdown("#### Infinity Solutions")
@@ -58,4 +58,4 @@ with c3:
         - There are infinitely many solutions because an entire line (or plane) satisfies the system. \n
         - This occurs when the rank of the coefficient matrix is less than 3, but the augmented matrix has the same rank. \n
         """)
-    st.image("images\infinity_sol_3d.png")
+    st.image("images/infinity_sol_3d.png")
